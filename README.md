@@ -43,7 +43,7 @@ Below are sample calls on the method.
 </p>
 <p>
 <h1>Challenge 2 - Grading Algorithm</h1>
-Below is a new grading algorithm that Mr. Krokower come up with and new grading scheme for his AP Computer Science A course. Here are his new grading requirements:
+Below is a new grading algorithm that Mr. Krokower has come up with. Here are his new grading requirements:
 
     
 
