@@ -2,6 +2,12 @@ Write a method <code>dateIsBefore</code> that takes as parameters two month/day 
 
 The first integer in each pair represents the month and will be a value between 1 and 12 (1 for January, 2 for February, etc, up to 12 for December). The second integer in each pair represents the day of the month (a value between 1 and 31). One date is considered to come before another if it comes earlier in the year.
 
+Other Requirements:
+1. Submit this to a new repository called "dateIsBefore"
+2. Your code must live in a file named "Main.java".
+3. Your code must compile
+4. Your code must meet the requirements listed up above.
+
 Below are sample calls on the method.
 
 <table>
@@ -31,8 +37,3 @@ Below are sample calls on the method.
     <td>Aug 15 comes before Aug 16</td>
 </tr>
 
-General Requirements:
-1. Submit this to a new repository called "dateIsBefore"
-2. Your code must live in a file named "Main.java".
-3. Your code must compile
-4. Your code must meet the requirements listed up above.
