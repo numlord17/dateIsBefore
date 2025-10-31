@@ -10,6 +10,8 @@ Other Requirements:
 2. You must create the <code>main</code> method to test all of the scenarios below
 3. Your code must compile
 4. Your code must meet the requirements listed up above.
+5. (Optional) Have your code check that the months and days are valid. For example, you can't submit a month 13, and you can't submit day 42.
+6. (Optional) If the user submits a day in a month that doesn't have it (like 31 for September), a specific error is thrown
 
 Below are sample calls on the method.
 
