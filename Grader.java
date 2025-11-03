@@ -23,6 +23,7 @@ public class Grader
          String firstChar = name.charAt(0)+"";
          String firstCharUpper = firstChar.toUpperCase();
          System.out.println(firstCharUpper);
+         System.out.println(color);
          if ((firstCharUpper == "A" || firstCharUpper == "E" || firstCharUpper == "I" || firstCharUpper == "O" || firstCharUpper == "U") && (color != "white"))
          {
             points += 50;
