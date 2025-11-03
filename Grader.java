@@ -15,6 +15,11 @@ public class Grader
             scanner.close();
          }
          System.out.println(grade("EasyPeasy", "black"));
+         System.out.println(grade("APeace", "white"));
+         System.out.println(grade("WhirledPeas", "white"));
+         System.out.println(grade("Oscar", "red"));
+         System.out.println(grade("Amy", "white"));
+         System.out.println(grade("Ben", "blue"));
       }
       
       public static int grade(String name,String color)
@@ -22,14 +27,11 @@ public class Grader
          int points = 0;
          String firstChar = name.charAt(0)+"";
          String firstCharUpper = firstChar.toUpperCase();
-         System.out.println(firstCharUpper);
-         System.out.println(color);
-         if ((firstCharUpper == "A" || firstCharUpper == "E" || firstCharUpper == "I" || firstCharUpper == "O" || firstCharUpper == "U") && (color != "white"))
+         if ((firstCharUpper.equals("A") || firstCharUpper.equals("E") || firstCharUpper.equals("I") || firstCharUpper.equals("O") || firstCharUpper.equals("U")) && (color != "white"))
          {
             points += 50;
          }
          int asciiValue = (int)(name.charAt(name.length() - 1));
-         System.out.println(asciiValue);
          if (asciiValue <  105 || color != "white")
          {
             points += 3000;
