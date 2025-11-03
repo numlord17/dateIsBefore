@@ -3,20 +3,26 @@ public class Grader
    {
       public static void main(String[] args)
       {
-         Scanner scanner = new Scanner(System.in);
-         System.out.println("What is your GitHub Username?");
-         String githubUsername = scanner.nextLine();
-         System.out.println("What is your shoe color?");
-         String shoeColor = scanner.nextLine();
-         System.out.println(Grade(githubUsername, shoeColor));
-         
+         boolean useScanner = false;
+         if (useScanner)
+         {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("What is your GitHub Username?");
+            String githubUsername = scanner.nextLine();
+            System.out.println("What is your shoe color?");
+            String shoeColor = scanner.nextLine();
+            System.out.println(grade(githubUsername, shoeColor));
+            scanner.close();
+         }
+         System.out.println(grade("EasyPeasy", "black"));
       }
       
-      public static int Grade(String name,String color)
+      public static int grade(String name,String color)
       {
          int points = 0;
          String firstChar = name.charAt(0)+"";
          String firstCharUpper = firstChar.toUpperCase();
+         System.out.println(firstCharUpper);
          if ((firstCharUpper == "A" || firstCharUpper == "E" || firstCharUpper == "I" || firstCharUpper == "O" || firstCharUpper == "U") && (color != "white"))
          {
             points += 50;
